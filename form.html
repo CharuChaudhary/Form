@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+        Form
+    </title>
+</head>
+<body>
+    <!-------------------------------------------Kellton tech Logo-------------------------------------->
+    <div>
+        <img src = "kellton tech.png" >
+    </div>
+    <!-------------------------------------Home,Product,Company,Blog------------------------------------->
+    <span>
+            <a href="www.google.com">Home</a>
+    </span>
+    <span>
+            <a href="www.google.com">Products</a>
+    </span>
+    <span>
+            <a href="www.google.com">Company</a>
+    </span>
+    <span>
+            <a href="www.google.com">Blog</a>
+    </span>
+     <!---------------------------------------------Search bar-------------------------------------------->   
+    <div class= "search">
+        <input type="text" placeholder="Search..">
+    </div>
+    <h1>
+        Online Registration
+    </h1>
+    <p>
+        Sachin Ramesh Tendulkar (/ˌsʌtʃɪn tɛnˈduːlkər/ (About this soundlisten); born 24 April 1973) is a former Indian international cricketer and a former captain of the Indian national team, regarded as one of the greatest batsman of all time.[4] He is the highest run scorer of all time in International cricket. Tendulkar took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for close to twenty-four years. He is the only player to have scored one hundred international centuries, the first batsman to score a double century in a ODI, the holder of the record for the most number of runs in both Test and ODI, and the only player to complete more than 30,000 runs in international cricket.
+    </p>
+    <!-------------------------Table contains Title,First Name,Last Name, DOB,etc------------------------>
+    <table cellpadding="10">
+        <form action=" " method="POST" id="reg">
+            <tr>
+                <td>
+                    Title
+                </td>
+                <td>
+                    <select name="option" form="reg">
+                        <option value="Mr">Mr.</option>
+                        <option value="Mrs">Mrs.</option>
+                        <option value="Miss">Miss.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First Name
+                </td>
+                <td>
+                    <input type="text" name="Firstname" placeholder ="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name
+                </td>
+                <td>
+                    <input type="text" name="Lastname" placeholder ="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    DOB
+                </td>
+                <td>
+                    <input type="date" name=" ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Full Address
+                </td>
+                <td>
+                    <textarea rows="10" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Item you want
+                </td>
+                <td>
+                    <textarea rows="10" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Choose Any
+                </td>
+                <td>
+                    <input type="radio" name="" value="Choice one" checked>Choice one <br>
+                    <input type="radio" name="" value="Choice two"> Choice two<br>
+                    <input type="radio" name="" value="Choice three"> Choice three<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Incement Number
+                </td>
+                <td>
+                    <input type="number" name="" min="1" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="checkbox" name="" value="Agree with therms and condition"> Agree with therms and condition<br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button type="submit"  value="Register">Register</button>
+                </td>
+                <td>
+                    <button type="submit"  value="Register">Submit</button>
+                </td>
+            </tr>
+
+        </form>
+
+    </table>
+
+</body>
+</html>
+<!--------------------------------It contains the styling of the whole webpage-------------------------->
+<style>
+img
+    {
+        display: block;
+        margin-right: auto;
+        height: 100px;
+    } 
+h1
+    {
+        text-align: center;
+    }
+.search
+    {
+        text-align: right;
+    }
+span
+    {
+        display:inline;
+        margin: 10px 10px;
+        padding-right: 10px;
+        border-right: solid;
+    }
+
+</style>
